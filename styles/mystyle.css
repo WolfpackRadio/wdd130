@@ -1,0 +1,173 @@
+body {
+    background-color: #000F08;
+    font-family:'Courier New', Courier, monospace;
+    color: #CCA700;
+    margin: 0;
+    padding: 0;
+}
+/* --------- Header Styles --------- */
+header {
+    background-color: #000F08;
+    display: grid;
+    grid-template-columns: 150px auto;
+}
+#logo_link{
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+}
+.logo {
+width: 100%;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: #710A0A;
+}
+nav a {
+    text-align: center;
+    color: #CCA700;
+    background-color: #710A0A;
+    text-decoration: none;
+    padding: 35px;
+}
+nav a:hover {
+    background-color:#74064C ;
+    color: #CCA700;
+}
+/* --------- Main Styles --------- */
+
+    /* --------- Hero Styles --------- */
+#hero {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100vw;
+    padding: 20px;
+}
+.my-img {
+    grid-column: 2/3;
+    width: 500px;
+    height: auto;
+}
+#hero-msg {
+    grid-column: 1/2;
+    text-align: center;
+    font-family: 'Luminari', fantasy;
+}
+#hero-msg h1 {
+    justify-self: start;
+
+}
+p {
+    margin: 0;
+}
+/* --------- List/Table Styles --------- */
+.Int  {
+    background-color: #535b65;
+    border: #710A0A solid thick;
+    width: 250px;
+}
+.ul {
+    background-color: #535b65;
+    font-family: 'American Typewriter', serif;
+}
+.h11 {
+    font-family: 'Brush Script MT', 'Brush Script Std', cursive;
+    
+}
+.ice {
+    font-family: 'Courier New', Courier, monospace;
+    color: #CCA700;
+
+}
+table {
+    background-color: #535b65;
+    border: #710A0A solid;
+}
+.h12 {
+    font-size: small;
+}
+th {
+    border: #710A0A solid;
+    width: 50px;
+}
+
+/* --------- Form Styles --------- */
+form {
+    border: #710A0A solid thick;
+    width: 200px;
+}
+
+
+/* --------- Footer Styles --------- */
+footer {
+    background-color: #710A0A;
+    color: #CCA700;
+    padding: 25px 50px;
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+footer a {
+    color: #CCA700;
+    text-decoration: none;
+}
+footer a:hover {
+    color: #CCA700;
+}
+footer p {
+    font-size: 1.2em;
+}
+footer p a:hover {
+    text-decoration: underline;
+}
+footer .social img{
+    padding-top: 15px;
+}
+/* --------- Media --------- */
+
+/*@media screen and (max-width: 900px) {
+    #hero, .home-grid {
+        display: block;
+        height: auto;
+    }
+    nav, footer {
+        flex-direction: column;
+    }
+    nav a {
+        display: block;
+        padding: 15px;
+    }
+    #hero {
+        margin-top: 0;
+    }
+    #hero-msg {
+        margin-top: 0;
+    }
+    #hero-msg h4 {
+        display: none;
+    }
+    #hero-msg h1 {
+        color: #6f7364;
+    }
+    .home-title {
+        font-size: 25px;
+    }
+    .rivers-card, .camping-card, .rapids-card { 
+        margin: 50px auto;
+        width: 60%;
+    }
+    #background {
+        display: none;
+    }
+    .mountains, .msg {
+        width: 80%;
+        display: block;
+        margin: 0 auto;
+    }
+    footer {
+        margin-top: 25px;
+    }
+}*/
+
